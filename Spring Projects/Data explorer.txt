@@ -1,0 +1,26 @@
+I will explain this project using the STAR method:
+
+Problem Statement (Situation):
+
+in our Regulatory Reporting world, we deal with markets data fed by up streams. this includes FX, Settlements, Options related data etc.
+we load feed our tables with the data received from an up stream and build reports on top of it. users sitting in Japan, China has not visibility of this data.
+suppose they observe any discrepancies in the reports while reconciliation, they request operate team or developer team to get an extract of data for an investigation.
+same goes for the preparation of SBE.
+
+Your Role (Task):
+
+I was involved in this from start to end. I have given my inputs in design of the application, finalising technology stack, defining micro-services and database.
+I have contributed in the development of microservices using spring boot where i have written database connection beans, services/repositories to fetch data from DB based on user inputs.
+
+Actions You Took:
+
+I was an active member of designing this application, approach and tech stack. 
+I had a discussions with Japan and China users to understand their requirements, worked on finalising the requirements.
+then, we divided an application into microservices like data-explorer-api, data-registry, DaaS.
+I have contributed in the development of these microservices.
+
+Results:
+
+Developed and implemented an innovative solution that significantly enhanced data visibility for 500+ users across Japan and China. 
+This solution streamlined data preparation processes, reducing preparation time by 90%, and accelerated the investigation of production issues by 95%. 
+As a result, operational efficiency improved by 90%, enabling faster problem resolution and empowering teams to make data-driven decisions with greater speed and accuracy.

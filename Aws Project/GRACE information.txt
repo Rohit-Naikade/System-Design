@@ -1,0 +1,36 @@
+I will explain this project using the STAR method:
+
+Problem Statement (Situation):
+
+in our Regulatory Reporting world, our team owns a Report generation framework called GRACE which is a short name of Global Regulatory Reporting and Compliance Engine.
+Earlier, we have all the components of this framework like databases, Linux servers to execute our report code, orchestration services, file store services on-premise. 
+managing these resources on-premise was an overhead and maintenance costs were becoming unsustainable. 
+also in lower environments, we were facing resource crunch and instability of an environment. 
+
+to resolve all these obstacles, we decided to move to AWS. AWS provides scalability, reduction in operational costs, and enhance system reliability. now developers are able to spend more time on developing/automating reports over managing our infrastructure.
+
+
+Your Role (Task):
+
+to contribute in this migration, I upskilled myself with Aws cloud practitioner and developer associate certifications. 
+I was part of all the discussions where we assessed our existing infrastructure and identified right services to use from AWS world. 
+earlier, our up streams were sending feed files to us in txt format, we used to process those files and dump data in our tables.
+here, we have asked up streams to send feed files to S3, we are using AWS glue to crawl these files, and prepare tables, we use AWS Athena to execute our database queries to read these table.
+earlier, we used to use Linux servers to run our report specific code, now we use EC2.
+we use s3 for report files store. we use AWS RDS to store our database queries, report related configurations like report schedules, control group details etc.
+
+Also I played a major role in an assessment and integration of AWS Athena, Glue catalogs. where I have written glue crawlers to crawl s3 buckets, 
+executing dataset queries in AWS Athena and store results in s3.
+
+Actions You Took:
+
+I have given my contribution in architecture design, finding right services w.r.t existing infrastructure.
+Also, I have contributed in POCs like AWS glue, AWS Athena will be best suit for our framework where we validated all the cases.
+I have got hands-on experience working with all these services.
+
+Results:
+
+The migration was completed successfully with zero downtime, and the system's scalability improved significantly.
+Operational costs were reduced by 30% due to the pay-as-you-go model of AWS.
+Also we have some complex reports those were taking 5+ hours of time on-premise, now those reports are running under 30 minutes on AWS.
+during development phase, we can use reuse saved results functionality of AWS Athena that saves our resources of we are running same queries for validations.
